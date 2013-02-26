@@ -7,9 +7,9 @@
 # config.setting_name = 'new value'
 Spree.config do |config|
   config.use_s3 = true
-  config.s3_bucket = 'JerMulMyStore'
-  config.s3_access_key = "AKIAJXJI7ZKCPTE5Y5CQ"
-  config.s3_secret = "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"
+  config.s3_bucket = ''
+  config.s3_access_key = ""
+  config.s3_secret = ""
 end
 
 Paperclip.interpolates(:s3_eu_url) do |attachment, style|
